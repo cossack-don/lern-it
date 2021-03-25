@@ -1,13 +1,13 @@
 // Подключение роутов из модулей 
 
 // Модуль header
-// import headerRouters  from '@/modules/main/routers';
+import headerRouters  from '@/modules/header/routers';
 
 // модуль main
 import mainRouters from '@/modules/main/routers';
 
 // модуль footer
-// import footerRouters from '@/modules/main/routers';
+// import footerRouters from '@/modules/footer/routers';
 
 
 // Главная страница
@@ -25,7 +25,7 @@ const routes = [
 
 // в главный routes добавляем роуты из других модулей, в конец(push)
 
-// routes.push( headerRouters );
+routes.push( headerRouters );
 routes.push( mainRouters );
 // routes.push( footerRouters );
 

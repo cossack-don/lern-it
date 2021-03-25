@@ -124,5 +124,13 @@ ul {
 .area-get-lessons__item {
   padding: 5px;
 }
+
+
+@media screen and (max-width: 1250px) {
+.area-get-lessons {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+}
 </style>
    

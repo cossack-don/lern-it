@@ -15,8 +15,8 @@ export default {
 
 <style>
 .before-navigation-header {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   background: #bbddce;
 }
 </style>

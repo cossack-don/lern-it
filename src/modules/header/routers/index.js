@@ -1,13 +1,9 @@
-// const routes = {
+const routes = {
+    path: '/search-repos-github',
+    name: 'search-repos-github',
+    component: () => import(/* webpackChunkName: "about" */ '@/modules/header/pages/SearchReposGithub.vue')
+// search-repos-github
+}; 
+// routes
+export default routes;
 
-//     // path: '/auth',
-//     // component: () => import( /* webpackChunkName: "auth.core" */'../core' ),
-
-    
-//     path: '/test',
-//     name: 'test',
-//     component: () => import(/* webpackChunkName: "about" */ '@/modules/main/pages/Test.vue')
-
-// }; // routes
-
-// export default routes;

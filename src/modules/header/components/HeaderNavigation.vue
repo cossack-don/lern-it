@@ -57,6 +57,12 @@ export default {
 .main-logo {
   width: 60px;
   height: auto;
+  border-radius: 50%;
+}
+.main-logo:hover {
+  border-radius: 50%;
+  transition: 0.5s;
+  box-shadow: 3px 4px 15px 8px rgba(34, 60, 80, 0.69);
 }
 .header-navigation {
   background: #6ae0ab;
@@ -87,7 +93,10 @@ export default {
   align-items: center;
   padding: 5px;
 } */
-
+.navbar-dark .navbar-toggler:hover {
+    transition: 0.5s;
+    box-shadow: 3px 4px 15px 8px rgba(76, 138, 185, 0.69);
+}
 @media screen and (max-width: 992px) {
   .header-navigation-right {
     margin-top: 20px;
