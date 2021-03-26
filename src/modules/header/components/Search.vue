@@ -3,6 +3,7 @@
     <div>
       отдельный компонент сделать Время и дата - иконки социальных сетей cм
       будстрап вью
+      <ClockAndData/>
       <!-- http://old.code.mu/books/javascript/dom/rabota-s-datami-v-javascript.html -->
     </div>
 
@@ -54,10 +55,13 @@
 import AreaGetLessons from "@/modules/header/components/AreaGetLessons.vue";
 // вывод то что ничего не нашло
 import AreaNoLessons from "@/modules/header/components/AreaNoLessons.vue";
+
+import ClockAndData from "@/modules/header/components/ClockAndData.vue";
 export default {
   components: {
     AreaGetLessons,
     AreaNoLessons,
+    ClockAndData
   },
   data() {
     return {
