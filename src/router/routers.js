@@ -10,13 +10,24 @@ import mainRouters from '@/modules/main/routers';
 // import footerRouters from '@/modules/footer/routers';
 
 
-// Главная страница
-const routes = [
 
+const routes = [
+// Главная страница / default layout
     {
         path: '/',
         name: 'Home',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/pages/WrapperMainContent.vue')
+
+    },
+
+    // layout search-repository-github
+    {
+        path: '/search-repository-github',
+        name: 'search-repository-github',
+        meta: {
+            layout: 'search-repository-github'
+          },
+        component: () => import(/* webpackChunkName: "about" */ '@/layouts/search-repository-github.vue')
 
     },
 

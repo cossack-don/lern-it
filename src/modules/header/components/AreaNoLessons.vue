@@ -17,10 +17,5 @@ export default {};
   margin-top: 25px;
   padding: 15px;
   border-radius: 5px;
-
 }
-
-
-
-
 </style>

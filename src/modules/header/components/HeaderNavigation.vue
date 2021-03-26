@@ -4,7 +4,7 @@
     <b-navbar toggleable="lg" type="dark">
       <!-- <b-navbar-brand href="#">Logo - home url</b-navbar-brand> -->
       <router-link to="/"
-        ><img class="main-logo" src="@/assets/bg.png" alt=""
+        ><img class="main-logo" src="@/assets/img/main-logo.png" alt=""
       /></router-link>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -15,9 +15,13 @@
         class="header-navigation__items header-navigation-burger"
       >
         <b-navbar-nav>
-          <b-nav-item href="#" class="header-navigation__link"
-            >Поиск репозитория на GitHub
-          </b-nav-item>
+          <!-- пример ссылки -->
+          <router-link
+            target="_self"
+            class="nav-link header-navigation__link"
+            to="/search-repository-github"
+            >Поиск репозитория на GitHub</router-link
+          >
           <b-nav-item href="#" class="header-navigation__link"
             >Link2</b-nav-item
           >
@@ -94,8 +98,8 @@ export default {
   padding: 5px;
 } */
 .navbar-dark .navbar-toggler:hover {
-    transition: 0.5s;
-    box-shadow: 3px 4px 15px 8px rgba(76, 138, 185, 0.69);
+  transition: 0.5s;
+  box-shadow: 3px 4px 15px 8px rgba(76, 138, 185, 0.69);
 }
 @media screen and (max-width: 992px) {
   .header-navigation-right {

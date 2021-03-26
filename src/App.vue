@@ -1,28 +1,25 @@
 <template>
   <div id="app">
-    <HeaderNavigation />
-    <Header />
-    <!-- header static -->
-    <!-- {{ $store.state.allLesonsIt.allLesonsIt }} -->
-    <!-- main content dinamic -->
-    <router-view />
-    <!-- <img src="@/assets/bg.png" alt="" /> -->
-    <!-- footer static -->
-    <Footer />
+    <!-- Wrapper for layouts -->
+    <vue-extend-layouts />
   </div>
 </template>
 
 <script>
-import HeaderNavigation from "@/modules/header/components/HeaderNavigation.vue";
+//
+// ССЫЛКИ НА LAYOUTS ДОКУ, КАК ИХ ДЕЛАТЬ
+// https://si-dev.com/ru/blog/vue-multiple-layouts
+// https://github.com/ktquez/vue-extend-layout
+//
+//
 
-import Header from "@/modules/header/pages/Header.vue";
-import Footer from "@/modules/footer/pages/Footer.vue";
-
+// Подключаем пакет установленный (для layouts)
+import VueExtendLayouts from "vue-extend-layout";
 export default {
+  // name название главного layout приложения
+  name: "default-layout-app",
   components: {
-    HeaderNavigation,
-    Header,
-    Footer,
+    VueExtendLayouts,
   },
 };
 </script>

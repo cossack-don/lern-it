@@ -10,18 +10,23 @@
     </h2>
     <SectionLinksJs />
     <hr class="wrapper-main-content__line" />
-    <h2 class="text-center wrapper-main-content__title">Vue js справочник</h2>
+    <h2 class="text-center wrapper-main-content__title">Vue.js справочник</h2>
     <SectionLinksVue />
+    <hr class="wrapper-main-content__line" />
+    <h2 class="text-center wrapper-main-content__title">Полезные ссылки</h2>
+    <OtherLinks />
   </div>
 </template>
 
 <script>
 import SectionLinksJs from "@/modules/main/components/js-lessons/Section-JS.vue";
 import SectionLinksVue from "@/modules/main/components/vue-lessons/Section-VUE.vue";
+import OtherLinks from "@/modules/main/components/other/Other.vue";
 export default {
   components: {
     SectionLinksJs,
     SectionLinksVue,
+    OtherLinks,
   },
 };
 </script>
