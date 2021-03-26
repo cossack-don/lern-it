@@ -2,7 +2,6 @@
   <!-- HEADER NAVIGATION COMPONENT -->
   <header class="header-navigation sticky-top">
     <b-navbar toggleable="lg" type="dark">
-      <!-- <b-navbar-brand href="#">Logo - home url</b-navbar-brand> -->
       <router-link to="/"
         ><img class="main-logo" src="@/assets/img/main-logo.png" alt=""
       /></router-link>
@@ -14,32 +13,27 @@
         is-nav
         class="header-navigation__items header-navigation-burger"
       >
+        <!-- Left navigation -->
         <b-navbar-nav>
-          <!-- пример ссылки -->
           <router-link
             target="_self"
             class="nav-link header-navigation__link"
-            to="/search-repository-github"
-            >Поиск репозитория на GitHub</router-link
+            :to="{ path: item.url }"
+            v-for="item in listItems"
+            :key="item.url"
+            >{{ item.nameUrl }}</router-link
           >
-          <b-nav-item href="#" class="header-navigation__link"
-            >Link2</b-nav-item
-          >
-          <b-nav-item href="#" class="header-navigation__link"
-            >Link 3</b-nav-item
-          >
-          <!-- <b-nav-item href="#" disabled class="header-navigation__link"
-            >Disabled</b-nav-item
-          > -->
         </b-navbar-nav>
 
-        <!-- Right aligned nav items -->
+        <!-- Right navigation -->
         <b-navbar-nav class="ml-auto header-navigation-right">
-          <b-nav-item href="#" class="header-navigation__link"
-            >Regist</b-nav-item
-          >
-          <b-nav-item href="#" class="header-navigation__link"
-            >Sing in</b-nav-item
+          <router-link
+            target="_self"
+            class="nav-link header-navigation__link"
+            :to="{ path: item.url }"
+            v-for="item in listItemsSings"
+            :key="item.url"
+            >{{ item.nameUrl }}</router-link
           >
         </b-navbar-nav>
       </b-collapse>
@@ -51,7 +45,31 @@
 export default {
   data() {
     return {
-      listItems: [],
+      listItems: [
+        {
+          nameUrl: "Поиск репозитория на GitHub",
+          url: "search-repository-github",
+        },
+        {
+          nameUrl: "Главная",
+          url: "/",
+        },
+        {
+          nameUrl: "Item",
+          url: "/1",
+        },
+      ],
+
+      listItemsSings: [
+        {
+          nameUrl: "Regist",
+          url: "/registration",
+        },
+        {
+          nameUrl: "Sing in",
+          url: "/2",
+        },
+      ],
     };
   },
 };

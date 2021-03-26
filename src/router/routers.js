@@ -31,6 +31,16 @@ const routes = [
 
     },
 
+    {
+        path: '/registration',
+        name: 'registration',
+        meta: {
+            layout: 'registration'
+          },
+        component: () => import(/* webpackChunkName: "about" */ '@/layouts/registration.vue')
+
+    },
+
 ];
 
 

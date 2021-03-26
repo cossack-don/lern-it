@@ -1,7 +1,8 @@
 <template>
   <div>
     <div>
-      отдельный компонент сделать Время и дата - иконки социальных сетей
+      отдельный компонент сделать Время и дата - иконки социальных сетей cм
+      будстрап вью
       <!-- http://old.code.mu/books/javascript/dom/rabota-s-datami-v-javascript.html -->
     </div>
 

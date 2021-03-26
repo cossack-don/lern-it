@@ -24,6 +24,39 @@ a {
 }
 
 
+// BTN Зеленый
+.button-light-green {
+    background: #4fc08d;
+    border: solid 1px;
+    border-radius: 2em;
+    font: inherit;
+    padding: 0.75em 2em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.button-light-green:hover {
+    color: #4fc08d;
+    transition: 0.5s;
+    background: #ffffff;
+}
+
+.button-red {
+    background: #4fc08d;
+    border: solid 1px;
+    border-radius: 2em;
+    font: inherit;
+    padding: 0.75em 2em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.button-red:hover {
+    color: #4fc08d;
+    transition: 0.5s;
+    background: #ffffff;
+}
+
 // color-btn red #dc3545
 // color-btn поиск #007bff
 // color-alert green #d4edda

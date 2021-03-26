@@ -28,10 +28,12 @@
           placeholder="Введите ник GitHub"
           class="main-input mt-15"
         />
-        <button @click="searchRepos" class="mt-15">Поиск</button>
+        <button @click="searchRepos" class="mt-15 button-light-green">
+          Поиск
+        </button>
         <button
           @click="cleanSerchAndListRepos"
-          class="mt-15 btn-clean-all"
+          class="mt-15 btn-clean-all button-red"
           :disabled="(disabled = !repos)"
         >
           Очистить все
@@ -417,22 +419,6 @@ export default {
 .star {
   width: 30px;
   height: 30px;
-}
-
-button:hover {
-  color: #4fc08d;
-  transition: 0.5s;
-  background: #ffffff;
-}
-
-button {
-  background: #4fc08d;
-  border: solid 1px;
-  border-radius: 2em;
-  font: inherit;
-  padding: 0.75em 2em;
-  cursor: pointer;
-  color: #ffffff;
 }
 
 .wrapper-search-repository-github__content {
