@@ -3,7 +3,7 @@
     <!-- header static -->
     <HeaderNavigation />
     <Header />
-
+     
     <!-- main content dinamic -->
     <router-view />
 
