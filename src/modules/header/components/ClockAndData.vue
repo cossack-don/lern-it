@@ -3,7 +3,7 @@
       ClockAndData
       <div class="clock hour">
 <!-- {{clock()}} -->
-<div @click="clock">333</div>{{c}}
+<div >333</div>  {{clock}} {{resultClock}} 
       </div>
   </div>
 </template>
@@ -12,48 +12,58 @@
 export default {
     data() {
         return {
-            clocks:''
+            startClock:null,
+            resultClock:'',
+            clockHour:'',
+            clockMin:'',
+            clockSec:'',
+            
+
         }
     },
 computed:{
-c(){
-    this.go()
-    
-}
-},
-methods:{
-clock() {
-  //   var str = hours + ":" + minutes + ":" + seconds;
-var now = new Date();
+clock () {
 
-let sec = now.getHours();
-let min = now.getMinutes();
-let hour = now.getSeconds();
+const now = new Date();
 
-    if(hour < 10) {
-      hour = "0" + hour;
+this.clockHour = now.getHours();
+this.clockMin = now.getMinutes();
+this.clockSec = now.getSeconds();
+
+
+  setTimeout(() => {
+    if(this.clockSec < 10) {
+      this.clockSec = "0" + this.clockSec;
     }
        
-  if(min < 10) {
-    min = "0" + min;
+  if(this.clockMin < 10) {
+    this.clockMin = "0" + this.clockMin;
   }
      
-  if(sec < 10) {
-      sec = "0" + sec;
+  if(this.clockHour < 10) {
+      this.clockHour = "0" + this.clockHour;
   }
-  var str = sec + ":" + min + ":" + hour;
-  
-  console.log(str)
-  this.clocks= str;
-     
-  
+   this.startClock = this.clockHour + ":" + this.clockMin + ":" + this.clockSec;
+  }, 1000);
+
+
+ this.resultClock = this.startClock
+},
+
+
 
 },
-go() {
-setTimeout("this.clock()", 1000);
-console.log(22)
-}
+methods:{
+
+
+
+
+
+
 },
+watch :{
+
+}
 
 }
 </script>
