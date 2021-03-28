@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper-page-404-error">
     <h2 class="wrapper-page-404-error__title-error">Ошибка 404</h2>
+    <div class="wrapper-page-404-error__link-home"><router-link to="/">Вернутся на главную</router-link></div>
     <!-- картинка -->
     <img
       src="@/assets/img/404.svg"
@@ -13,7 +14,7 @@
     </h3>
     <!-- обертка блок внизу с описанием подробным -->
     <div class="wrapper-page-404-error__list-items">
-      <h4>Возможно это произошло по следующим причинам:</h4>
+      <h4 class="wrapper-page-404-error__reasons">Возможно это произошло по следующим причинам:</h4>
       <ul>
         <li
           class="wrapper-page-404-error__item"
@@ -41,7 +42,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .wrapper-page-404-error__image {
   display: flex;
   justify-content: center;
@@ -76,5 +77,26 @@ export default {
 }
 .wrapper-page-404-error__item {
   list-style-type: disc;
+}
+
+.wrapper-page-404-error__reasons {
+  text-align: center;
+}
+
+.wrapper-page-404-error__link-home {
+  text-align: center;
+  margin-bottom: 15px;
+
+  a {
+      color: #007bff;
+  }
+  
+}
+
+
+@media screen and (max-width:768px) {
+  .wrapper-page-404-error__list-items {
+    margin: 10px;
+  }
 }
 </style>

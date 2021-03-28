@@ -4,7 +4,9 @@
 import headerRouters  from '@/modules/header/routers';
 
 // модуль main
-import mainRouters from '@/modules/main/routers';
+// import mainRouters from '@/modules/main/routers';
+import mainRoutersLessonJs from '@/modules/main/components/js-lessons/routers';
+import mainRoutersLessonVue from '@/modules/main/components/vue-lessons/routers';
 
 // модуль footer
 // import footerRouters from '@/modules/footer/routers';
@@ -54,9 +56,25 @@ headerRouters.forEach(item => {
 // routes.push( headerRouters );
 
 
-mainRouters.forEach(item => {
+// MAIN BLOCK
+// mainRouters.forEach(item => {
+//     routes.push( item );
+// })
+
+
+// MAIN LESSONS JS
+mainRoutersLessonJs.forEach(item => {
     routes.push( item );
 })
+// MAIN LESSONS VUE
+mainRoutersLessonVue.forEach(item => {
+    routes.push( item );
+})
+
+// mainRouters.forEach(item => {
+//     routes.push( item );
+// })
+
 // routes.push( mainRouters );
 // routes.push( footerRouters );
 

@@ -125,7 +125,7 @@ a {
 .wrapper-links-lessons-js {
   max-width: 1200px;
   /* ЕСЛИ ЧТО ОТРЕГУЛИРОВАТЬ МАКС ХАЙТ ЧТОБЫ ВМЕЩАЛИСЬ ЛЕКЦИИ В СТОЛБИК */
-  max-height: 200px;
+  max-height: 350px;
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
@@ -143,6 +143,7 @@ a {
   /* background: #4b6577;
   border: solid 1px #4b6577; */
   border-radius: 5px;
+  margin-right: 10px;
 }
 
 .wrapper-links-lessons-js__link {
@@ -164,4 +165,18 @@ a {
   transition: 0.5s;
   color: #6ae0ab;
 } */
+
+/* Адаптив */
+@media screen and (max-width:800px) {
+  .wrapper-links-lessons-js {
+    max-height: 550px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .wrapper-links-lessons-js {
+    max-height: 100%;
+    align-items: center;
+  }
+}
 </style>

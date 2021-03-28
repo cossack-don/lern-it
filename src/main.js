@@ -25,9 +25,13 @@ import "./global-scss/main.scss";
 
 import GC_h2_lessons from '@/global-components/global-component-h2-lesson.vue'
 import GC_area_code_lessons from '@/global-components/global-component-area-code.vue'
+import GC_link_page from '@/global-components/global-component-link-page.vue'
+import GC_definition from '@/global-components/global-component-definition.vue'
+
 Vue.component('GC_h2_lessons', GC_h2_lessons)
 Vue.component('GC_area_code_lessons', GC_area_code_lessons)
-
+Vue.component('GC_link_page', GC_link_page)
+Vue.component('GC_definition', GC_definition)
 //* Глобальные компоненты
 
 

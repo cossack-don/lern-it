@@ -50,7 +50,7 @@
         class="wrapper-template-and-code__btn-copy-code wrapper-template-and-code__btn-copy-code--mobile"
         ><img src="@/assets/img/copy-icon.png" alt="" class="wrapper-template-and-code__mobile-icon"></b-button
       >
-      
+
   </div>
 
   </div>
@@ -81,9 +81,9 @@ export default {
       { 
         id:3,
         visualPart:'Как выглядит компонент визуально.',    
-        templateComponent:'<div class="global-block-code-lesson">Для кода</div>',
+        templateComponent:'<a href="/link" class="global-link-page" to="link">Название страницы</a>',
         visualCode:'Код компонента.',
-        codeComponent:'  var elements = [Hydrogen,Helium,Lithium,Beryllium]',
+        codeComponent:'<GC_link_page to="link">Название страницы</GC_link_page>',
       },
 
       { 
@@ -92,6 +92,13 @@ export default {
         templateComponent:'<div>< -------------------------------------Комментарий------------------------------------------- ></div>',
         visualCode:'Код компонента.',
         codeComponent:'<!-- ------------------------------------------------------------------------------------------------ -->',
+      },
+            { 
+        id:5,
+        visualPart:'Как выглядит компонент визуально.',    
+        templateComponent:'<div>доделать</div>',
+        visualCode:'Код компонента.',
+        codeComponent:'GC_definition',
       },
     ]
   }

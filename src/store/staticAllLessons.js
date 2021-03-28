@@ -3,8 +3,8 @@ export default {
         objectWithLessonsVue:[
             {
                 id:1,
-                title:'регулярные врожения',
-                url:'regulyarnye-vrozheniya'
+                title:'Тест vue',
+                url:'test-vue'
             },
             {
                 id:2,
@@ -40,8 +40,8 @@ export default {
         objectWithLessonsJs:[
             {
                 id:1,
-                title:'Тест',
-                url:'regulyarnye-vrozheniya'
+                title:'Тест js',
+                url:'test-js'
             },
             {
                 id:2,
@@ -108,6 +108,97 @@ export default {
                 title:'название темы 38ssss8',
                 url:'22'
             },
+            {
+                id:15,
+                title:'название те111мы 38ssss8',
+                url:'1122'
+            },
+            {
+                id:16,
+                title:'название тем3232ы 38ssss8',
+                url:'232'
+            },
+            {
+                id:17,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:18,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:19,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:20,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:21,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:22,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:23,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:24,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:25,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:26,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:27,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:28,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:29,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:30,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:31,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+            {
+                id:32,
+                title:'название темы 38ssss8',
+                url:'22'
+            },
+
         ]
     }
 };
