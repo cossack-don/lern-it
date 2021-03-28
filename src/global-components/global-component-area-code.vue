@@ -14,7 +14,7 @@ export default {
 .global-block-code-lesson {
     background:#bbddce;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     border-radius: 5px;
     color: #007bff;

@@ -3,7 +3,7 @@
       ClockAndData
       <div class="clock hour">
 <!-- {{clock()}} -->
-<div >333</div>  {{clock}} {{resultClock}} 
+<!-- <div >333</div>  {{clock}} {{resultClock}}  -->
       </div>
   </div>
 </template>

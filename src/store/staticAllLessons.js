@@ -8,7 +8,7 @@ export default {
             },
             {
                 id:2,
-                title:'а',
+                title:'шабло22н',
                 url:'название страницы в url 2 Vue'
             },
             {
@@ -40,13 +40,13 @@ export default {
         objectWithLessonsJs:[
             {
                 id:1,
-                title:'название темы',
+                title:'Тест',
                 url:'regulyarnye-vrozheniya'
             },
             {
                 id:2,
-                title:'название темы 2',
-                url:'32'
+                title:'Шаблоны компонентов',
+                url:'shablony-komponentov'
             },
             {
                 id:3,

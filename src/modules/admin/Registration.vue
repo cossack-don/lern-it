@@ -54,7 +54,7 @@ export default {
 
 <style>
 .registration {
-  height: 100vh;
+  height: calc(100vh - 76px);
 
   display: flex;
   justify-content: center;
@@ -95,5 +95,13 @@ export default {
 .registration__button-submit {
   margin: 0 auto;
   width: 200px;
+}
+@media screen and (max-width:576px) {
+  .registration__form {
+    max-width: 550px;
+    margin: 15px;
+    padding: 45px;
+  }
+
 }
 </style>

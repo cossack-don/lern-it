@@ -46,8 +46,18 @@ const routes = [
 
 // в главный routes добавляем роуты из других модулей, в конец(push)
 
-routes.push( headerRouters );
-routes.push( mainRouters );
+
+
+headerRouters.forEach(item => {
+    routes.push( item );
+})
+// routes.push( headerRouters );
+
+
+mainRouters.forEach(item => {
+    routes.push( item );
+})
+// routes.push( mainRouters );
 // routes.push( footerRouters );
 
 

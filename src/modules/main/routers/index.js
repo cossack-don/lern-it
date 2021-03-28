@@ -1,13 +1,18 @@
-const routes = {
 
-    // path: '/auth',
-    // component: () => import( /* webpackChunkName: "auth.core" */'../core' ),
+const routes = [
+    {
+        path: '/regulyarnye-vrozheniya',
+        name: 'regulyarnye-vrozheniya',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/pages/Test.vue')
+    },
 
-    
-    path: '/regulyarnye-vrozheniya',
-    name: 'regulyarnye-vrozheniya',
-    component: () => import(/* webpackChunkName: "about" */ '@/modules/main/pages/Test.vue')
+    {
+        path: '/shablony-komponentov',
+        name: 'shablony-komponentov',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/Template-componentsAll.vue')
+    },
 
-}; // routes
+]
 
+  
 export default routes;

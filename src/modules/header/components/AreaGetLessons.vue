@@ -113,7 +113,7 @@ ul {
 }
 
 .area-get-lessons__wrapper-links {
-  padding: 15px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
