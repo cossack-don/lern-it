@@ -60,13 +60,13 @@ export default {
             },
             {
                 id:5,
-                title:'название темы 5',
-                url:'22'
+                title:'IndexOf',
+                url:'indexof'
             },
             {
                 id:6,
-                title:'название темы 6',
-                url:'22'
+                title:'Includes',
+                url:'includes'
             },
             {
                 id:7,
@@ -210,6 +210,11 @@ export default {
                 id:2,
                 title:'БЭМ документация',
                 url:'bem-dokumentaciya'
+            },
+            {
+                id:3,
+                title:'Web dev с Нуля(Курсы)',
+                url:'web-dev-s-nulya-kursy'
             },
         ]
     }
