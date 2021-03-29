@@ -23,11 +23,12 @@ Vue.use(Vuex)
 
 import wrapperAllLesonsIt from "./staticAllLessons.js";
 // *
-
+// import blockOther from "./blockOther.js";
+// 
 export default new Vuex.Store({
   state: {
     wrapperAllLesonsIt,
-
+    // blockOther,
     // массив со всеми темами уроков Общий
     globalArrayWithAllLessons:[]
   },

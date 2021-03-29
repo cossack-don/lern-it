@@ -1,5 +1,5 @@
 <template>
-  <div class="global-block-code-lesson">
+  <div class="global-block-code-discription">
     <slot></slot>
   </div>
 </template>
@@ -9,12 +9,10 @@ export default {};
 </script>
 
 <style>
-.global-block-code-lesson {
+.global-block-code-discription {
   background: #bbddce;
-  padding: 20px;
-  max-width: 900px;
-  margin: 15px auto;
+  padding: 10px;
   border-radius: 5px;
-  color: #007bff;
+  color: #000000;
 }
 </style>

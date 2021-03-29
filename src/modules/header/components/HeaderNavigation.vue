@@ -23,6 +23,13 @@
             :key="item.url"
             >{{ item.nameUrl }}</router-link
           >
+          <!--  -->
+          <a
+            style="color: #ffffff"
+            href="https://github.com/cossack-don"
+            target="_blank"
+            >GitHub</a
+          >
         </b-navbar-nav>
 
         <!-- Right navigation -->
@@ -55,8 +62,8 @@ export default {
           url: "/",
         },
         {
-          nameUrl: "Item",
-          url: "/1",
+          nameUrl: "Форма обратной связи",
+          url: "/feedback-form",
         },
       ],
 

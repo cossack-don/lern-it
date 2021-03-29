@@ -7,7 +7,7 @@ import headerRouters  from '@/modules/header/routers';
 // import mainRouters from '@/modules/main/routers';
 import mainRoutersLessonJs from '@/modules/main/components/js-lessons/routers';
 import mainRoutersLessonVue from '@/modules/main/components/vue-lessons/routers';
-
+import mainRoutersLessonOther from '@/modules/main/components/other/routers';
 // модуль footer
 // import footerRouters from '@/modules/footer/routers';
 
@@ -43,6 +43,16 @@ const routes = [
 
     },
 
+    {
+        path: '/feedback-form',
+        name: 'feedback-form',
+        meta: {
+            layout: 'feedback-form'
+          },
+        component: () => import(/* webpackChunkName: "about" */ '@/layouts/feedback-form.vue')
+
+    },
+
 ];
 
 
@@ -68,6 +78,10 @@ mainRoutersLessonJs.forEach(item => {
 })
 // MAIN LESSONS VUE
 mainRoutersLessonVue.forEach(item => {
+    routes.push( item );
+})
+// Main lesson other
+mainRoutersLessonOther.forEach(item => {
     routes.push( item );
 })
 

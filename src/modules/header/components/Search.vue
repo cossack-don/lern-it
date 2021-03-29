@@ -97,9 +97,11 @@ export default {
     },
     // Получаю из стора обьект и создаю из него один массив для поиска по названию урока
     getAllLessonsInArray() {
+      console.log(this.allLessonsInArray);
       // получаем из стора 2 массива и соеденяем в один
       return (this.allLessonsInArray = this.$store.state.wrapperAllLesonsIt.allLesonsIt.objectWithLessonsJs.concat(
-        this.$store.state.wrapperAllLesonsIt.allLesonsIt.objectWithLessonsVue
+        this.$store.state.wrapperAllLesonsIt.allLesonsIt.objectWithLessonsVue,
+        this.$store.state.wrapperAllLesonsIt.allLesonsIt.otherArray
       ));
     },
     // Получаем нужный массив, фильтруем его, делаем нижний регистр, убираем пробелы, ищет по нахождению буквы в слове

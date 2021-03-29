@@ -15,97 +15,14 @@
   </ul>
 </template>
 
+
+
+
+
 <script>
 export default {
   data() {
-    return {
-      // links: [
-      //   {
-      //     name: "goga1",
-      //     id: 1,
-      //   },
-      //   {
-      //     name: "goga2",
-      //     id: 2,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 3,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 4,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 5,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 36,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 23,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 2993,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 113,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 233,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 533,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 463,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42131,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42133,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42132,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 4213333,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 421333133,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 422113,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 4221111113,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42213313,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42211211113,
-      //   },
-      // ],
-    };
+    return {};
   },
   computed: {
     d() {
@@ -120,6 +37,8 @@ export default {
 };
 </script>
 
+
+
 <style>
 li {
   list-style-type: none;
@@ -130,7 +49,7 @@ a {
 .wrapper-links-lessons-vue {
   max-width: 1200px;
   /* ЕСЛИ ЧТО ОТРЕГУЛИРОВАТЬ МАКС ХАЙТ ЧТОБЫ ВМЕЩАЛИСЬ ЛЕКЦИИ В СТОЛБИК */
-  max-height: 200px;
+  max-height: 350px;
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
@@ -148,7 +67,20 @@ a {
   /* background: #4b6577;
   border: solid 1px #4b6577; */
   border-radius: 5px;
+  margin-right: 10px;
 }
+
+/* .wrapper-links-lessons-js__item {
+  min-width: 100px; */
+
+/* padding: 10px; */
+/* margin: 10px; */
+/* background: #4b6577;
+  border: solid 1px #4b6577; */
+
+/* border-radius: 5px;
+  margin-right: 10px;
+} */
 
 .wrapper-links-lessons-vue__link {
   display: flex;
@@ -169,4 +101,22 @@ a {
   transition: 0.5s;
   color: #6ae0ab;
 } */
+/* Адаптив */
+@media screen and (max-width: 800px) {
+  .wrapper-links-lessons-vue {
+    max-height: 550px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper-links-lessons-vue {
+    max-height: 100%;
+    align-items: center;
+  }
+}
 </style>
+
+
+
+
+

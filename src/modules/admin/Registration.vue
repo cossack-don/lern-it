@@ -96,12 +96,11 @@ export default {
   margin: 0 auto;
   width: 200px;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .registration__form {
     max-width: 550px;
     margin: 15px;
     padding: 45px;
   }
-
 }
 </style>

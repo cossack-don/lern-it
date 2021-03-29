@@ -50,13 +50,13 @@ export default {
             },
             {
                 id:3,
-                title:'название темы 3',
-                url:'22'
+                title:'TEST2-JS',
+                url:'test2-js'
             },
             {
                 id:4,
-                title:'название темы 4',
-                url:'22'
+                title:'Объект Data',
+                url:'obekt-data'
             },
             {
                 id:5,
@@ -199,6 +199,18 @@ export default {
                 url:'22'
             },
 
+        ],
+        otherArray:[
+            {
+                id:1,
+                title:'Mirage.api',
+                url:'mirage-api'
+            },
+            {
+                id:2,
+                title:'БЭМ документация',
+                url:'bem-dokumentaciya'
+            },
         ]
     }
 };

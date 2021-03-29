@@ -167,13 +167,13 @@ a {
 } */
 
 /* Адаптив */
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .wrapper-links-lessons-js {
     max-height: 550px;
   }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .wrapper-links-lessons-js {
     max-height: 100%;
     align-items: center;

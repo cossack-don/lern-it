@@ -44,6 +44,7 @@
         https://cossack-don.github.io/<span style="color: #ffffff">ТУТ-URL</span
         >/#/
       </div>
+
       <!--  Оповищение сколько репозиториев шт    -->
       <div v-if="repos && repos.length !== 0" class="count-repos">
         У пользователя <span style="color: #2c3e50">{{ nickGithub }}</span> -
@@ -294,6 +295,51 @@
   </div>
 </template>
 
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!
+// Хотел сделать поиск по имени репозитория, чтобы сразу убирались ненужные репозитории, когда ищу
+// Разметка
+
+//       <input type="text" v-model="searchReposForName" />
+      <button>тест</button>
+      <!-- @click="testSearch" -->
+      <p>{{ searchReposForName }}</p>
+      <p>{{ arrayWithNameReposS }}</p>
+      // 
+//           <a
+            target="_blank"
+            :href="item.html_url"
+            class="link-repos"
+            :class="`id-repos-${item.id}`"
+            >{{ item.name }}</a
+          >
+
+
+// data
+      searchReposForName: "",
+      arrayWithNameRepos: [],
+      arrayWithNameReposS: "",
+
+
+// axios 
+//           // кладем все имена репозеториев в массив
+          this.arrayWithNameRepos = res.data.map((item) => {
+            return item.name.toLowerCase();
+          });
+          console.log(this.arrayWithNameRepos);
+
+// watch,computed,method 
+
+
+//     searchReposForName() {
+      this.arrayWithNameReposS = this.arrayWithNameRepos.filter((name) =>
+        name
+          .toLowerCase()
+          .includes(this.searchReposForName.trim().toLowerCase())
+      );
+      // console.log(document.querySelector("."));
+      console.log(this.arrayWithNameReposS);
+    },
+
 <script>
 import axios from "axios";
 
@@ -303,7 +349,7 @@ export default {
   components: {},
   data() {
     return {
-      valueSearch: "",
+      valueSearch: "cossack-don",
       errorSearch: "",
       repos: null,
       error: null,
@@ -313,6 +359,15 @@ export default {
   },
 
   methods: {
+    // testSearch() {
+    //   this.arrayWithNameReposS = this.arrayWithNameRepos.filter((name) =>
+    //     name
+    //       .toLowerCase()
+    //       .includes(this.searchReposForName.trim().toLowerCase())
+    //   );
+    //   console.log(this.arrayWithNameReposS);
+    // },
+
     //     метод для очищения полученной даты, в человеческий вид
     cleanDataAndReturnNewDataCreateProdject(str) {
       //   получаем дату из json
