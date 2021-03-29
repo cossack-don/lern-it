@@ -1,9 +1,9 @@
 <template>
   <div
     class="registration feedback-form"
-    :style="`background: no-repeat center/cover url(${require('@/assets/img/bg_vue_react.jpg')}) `"
+    :style="renderImage"
   >
-    <form class="registration__form" @submit.prevent="onSubmit">
+    <form class="feedback-form__form" @submit.prevent="onSubmit">
       <h4 class="registration__title">Форма обратной связи</h4>
 
       <transition name="fade">
@@ -68,9 +68,13 @@ export default {
       popupErrorValueFormNull: false,
       messageSuccess: "",
       messageError: "",
+      renderImage:null
     };
   },
   methods: {
+    renderCreatedImg() {
+    return  this.renderImage= `background: no-repeat center/cover url(${require('@/assets/img/bg_vue_react.jpg')})`
+    },
     onSubmit() {
       // Cделать легкую валидацию формы и оповещений
 
@@ -113,7 +117,11 @@ export default {
       // отправка данных на указанный url  /email/email.php
       //   + добавить файл php на сервер для обработки формы
     },
+
   },
+      created() {
+      this.renderCreatedImg()
+    }
 };
 </script>
 
@@ -191,6 +199,18 @@ export default {
     color: #ffffff;
     border-radius: 5px;
     text-align: center;
+  }
+  // 
+  &__form {
+    padding: 35px;
+    background: rgba(106, 224, 171, 1);
+    background: linear-gradient( to bottom right, rgba(106, 224, 171, 1), rgba(11, 34, 78, 1) );
+    margin: 0 auto;
+    /* max-width: 550px; */
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
   }
 }
 @media screen and (max-width: 576px) {

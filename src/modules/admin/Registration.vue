@@ -1,7 +1,7 @@
 <template>
   <div
     class="registration"
-    :style="`background: no-repeat center/cover url(${require('@/assets/img/11.png')}) `"
+    :style="renderImage"
   >
     <form class="registration__form" @submit.prevent="onSubmit">
       <h4 class="registration__title">Форма регистрации:</h4>
@@ -35,10 +35,18 @@ export default {
         email: "",
         password: "",
       },
+
       popupErrorValueFormNull: false,
+
+      renderImage:null
     };
   },
-  methods: {
+  methods: {    
+    
+    renderCreatedImg() {
+       return  this.renderImage= `background: no-repeat center/cover url(${require('@/assets/img/11.png')})`
+    },
+
     onSubmit() {
       if (this.user.email === "" && this.user.password === "") {
         this.popupErrorValueFormNull = true;
@@ -49,6 +57,10 @@ export default {
       console.log(this.user);
     },
   },
+
+    created() {
+      this.renderCreatedImg()
+    }
 };
 </script>
 
