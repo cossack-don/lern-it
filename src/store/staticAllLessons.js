@@ -70,23 +70,23 @@ export default {
             },
             {
                 id:7,
-                title:'название темы 7',
-                url:'22'
+                title:'Push и Pop',
+                url:'push-i-pop'
             },
             {
                 id:8,
-                title:'название темы 38',
-                url:'22'
+                title:'Shift, Unshift, Slice',
+                url:'shift-unshift-slice'
             },
             {
                 id:9,
-                title:'название темы 388',
-                url:'22'
+                title:'Filter',
+                url:'filter'
             },
             {
                 id:10,
-                title:'название темы 4eqe53',
-                url:'22'
+                title:'Map',
+                url:'map'
             },
             {
                 id:11,
