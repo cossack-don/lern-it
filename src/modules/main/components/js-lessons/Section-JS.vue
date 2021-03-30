@@ -2,10 +2,10 @@
   <!-- ЕСЛИ БУДЕТ РАСШИРЯТЬСЯ JS ИЛИ РАЗДЕЛЯТЬ ПО КАТЕГОРИЯМ -->
   <!-- ТО ТУТ СОЗДАТЬ КОМПОНЕНТЫ ПО ТЕМАМ И ПОДКЛЮЧАТЬ ИХ -->
   <ul class="wrapper-links-lessons-js">
-    <li class="wrapper-links-lessons-js__item" v-for="item in d" :key="item.id">
-      <router-link class="wrapper-links-lessons-js__link" :to="item.url">{{
+    <li class="wrapper-links-lessons-js__item" v-for="item in renderLinksLessonsJs" :key="item.id">
+      <router-link class="wrapper-links-lessons-js__link" :to="item.url" :style="item.colorLink">{{
         item.title
-      }}</router-link>
+      }} </router-link>
     </li>
   </ul>
 </template>
@@ -14,99 +14,12 @@
 export default {
   data() {
     return {
-      // links: [
-      //   {
-      //     name: "goga1",
-      //     id: 1,
-      //   },
-      //   {
-      //     name: "goga2",
-      //     id: 2,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 3,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 4,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 5,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 36,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 23,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 2993,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 113,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 233,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 533,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 463,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42131,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42133,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42132,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 4213333,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 421333133,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 422113,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 4221111113,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42213313,
-      //   },
-      //   {
-      //     name: "goga3",
-      //     id: 42211211113,
-      //   },
-      // ],
+     
     };
   },
   computed: {
-    d() {
-      // console.log(
-      //   this.$store.state.wrapperAllLesonsIt.allLesonsIt.objectWithLessonsJs
-      // );
+    renderLinksLessonsJs() {
+
       return this.$store.state.wrapperAllLesonsIt.allLesonsIt
         .objectWithLessonsJs;
     },
@@ -122,6 +35,7 @@ li {
 a {
   text-decoration: none;
 }
+
 .wrapper-links-lessons-js {
   max-width: 1200px;
   /* ЕСЛИ ЧТО ОТРЕГУЛИРОВАТЬ МАКС ХАЙТ ЧТОБЫ ВМЕЩАЛИСЬ ЛЕКЦИИ В СТОЛБИК */
@@ -179,4 +93,6 @@ a {
     align-items: center;
   }
 }
+
+
 </style>

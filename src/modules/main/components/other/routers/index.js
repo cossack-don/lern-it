@@ -15,9 +15,13 @@ const routes = [
         name: 'web-dev-s-nulya-kursy',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/WebDevWithNullKurs.vue')
     },
-
+    {
+        path: '/jsonplaceholder-api',
+        name: 'jsonplaceholder-api',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/JsonPlaceHolder.vue')
+    },
 
 ]
 
-  
+
 export default routes;

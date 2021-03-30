@@ -1,220 +1,227 @@
 export default {
     allLesonsIt: {
-        objectWithLessonsVue:[
+        objectWithLessonsVue: [
             {
-                id:1,
-                title:'Тест vue',
-                url:'test-vue'
+                id: 1,
+                title: 'Тест vue',
+                url: 'test-vue'
             },
             {
-                id:2,
-                title:'шабло22н',
-                url:'название страницы в url 2 Vue'
+                id: 2,
+                title: 'шабло22н',
+                url: 'название страницы в url 2 Vue'
             },
             {
-                id:3,
-                title:'Спред',
-                url:'название страницы в url 3 Vue'
+                id: 3,
+                title: 'Спред',
+                url: 'название страницы в url 3 Vue'
             },
             {
-                id:5,
-                title:'Спред',
-                url:'название страницы в url 3 Vue'
+                id: 5,
+                title: 'Спред',
+                url: 'название страницы в url 3 Vue'
             },
             {
-                id:6,
-                title:'Спред',
-                url:'название страницы в url 3 Vue'
+                id: 6,
+                title: 'Спред',
+                url: 'название страницы в url 3 Vue'
             },
             {
-                id:7,
-                title:'Спред',
-                url:'название страницы в url 3 Vue'
+                id: 7,
+                title: 'Спред',
+                url: 'название страницы в url 3 Vue'
             },
             {
-                id:8,
-                title:'Спред',
-                url:'название страницы в url 3 Vue'
+                id: 8,
+                title: 'Спред',
+                url: 'название страницы в url 3 Vue'
             }
         ],
-        objectWithLessonsJs:[
+        objectWithLessonsJs: [
             {
-                id:1,
-                title:'Тест js',
-                url:'test-js'
+                id: 1,
+                title: 'Шаблоны компонентов',
+                url: 'shablony-komponentov',
+                colorLink: 'color:red;'
             },
             {
-                id:2,
-                title:'Шаблоны компонентов',
-                url:'shablony-komponentov'
+                id: 2,
+                title: 'Splice и Concat',
+                url: 'splice-i-concat'
+            },
+
+            {
+                id: 3,
+                title: '-',
+                url: 'test2-js'
             },
             {
-                id:3,
-                title:'TEST2-JS',
-                url:'test2-js'
+                id: 4,
+                title: 'Объект Data',
+                url: 'obekt-data'
             },
             {
-                id:4,
-                title:'Объект Data',
-                url:'obekt-data'
+                id: 5,
+                title: 'IndexOf',
+                url: 'indexof'
             },
             {
-                id:5,
-                title:'IndexOf',
-                url:'indexof'
+                id: 6,
+                title: 'Includes',
+                url: 'includes'
             },
             {
-                id:6,
-                title:'Includes',
-                url:'includes'
+                id: 7,
+                title: 'Push и Pop',
+                url: 'push-i-pop'
             },
             {
-                id:7,
-                title:'Push и Pop',
-                url:'push-i-pop'
+                id: 8,
+                title: 'Shift, Unshift, Slice',
+                url: 'shift-unshift-slice'
             },
             {
-                id:8,
-                title:'Shift, Unshift, Slice',
-                url:'shift-unshift-slice'
+                id: 9,
+                title: 'Filter',
+                url: 'filter'
             },
             {
-                id:9,
-                title:'Filter',
-                url:'filter'
+                id: 10,
+                title: 'Map',
+                url: 'map'
             },
             {
-                id:10,
-                title:'Map',
-                url:'map'
+                id: 11,
+                title: 'Reduce и isArray',
+                url: 'reduce-i-isarray'
             },
             {
-                id:11,
-                title:'название темы 38qwqw8',
-                url:'22'
+                id: 12,
+                title: 'название темы 38sss8',
+                url: '22'
             },
             {
-                id:12,
-                title:'название темы 38sss8',
-                url:'22'
+                id: 13,
+                title: 'название темы 3qqq88',
+                url: '22'
             },
             {
-                id:13,
-                title:'название темы 3qqq88',
-                url:'22'
+                id: 14,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:14,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 15,
+                title: 'название те111мы 38ssss8',
+                url: '1122'
             },
             {
-                id:15,
-                title:'название те111мы 38ssss8',
-                url:'1122'
+                id: 16,
+                title: 'название тем3232ы 38ssss8',
+                url: '232'
             },
             {
-                id:16,
-                title:'название тем3232ы 38ssss8',
-                url:'232'
+                id: 17,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:17,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 18,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:18,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 19,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:19,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 20,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:20,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 21,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:21,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 22,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:22,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 23,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:23,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 24,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:24,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 25,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:25,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 26,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:26,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 27,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:27,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 28,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:28,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 29,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:29,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 30,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:30,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 31,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
             {
-                id:31,
-                title:'название темы 38ssss8',
-                url:'22'
-            },
-            {
-                id:32,
-                title:'название темы 38ssss8',
-                url:'22'
+                id: 32,
+                title: 'название темы 38ssss8',
+                url: '22'
             },
 
         ],
-        otherArray:[
+        otherArray: [
             {
-                id:1,
-                title:'Mirage.api',
-                url:'mirage-api'
+                id: 1,
+                title: 'Mirage API',
+                url: 'mirage-api'
             },
             {
-                id:2,
-                title:'БЭМ документация',
-                url:'bem-dokumentaciya'
+                id: 2,
+                title: 'БЭМ документация',
+                url: 'bem-dokumentaciya'
             },
             {
-                id:3,
-                title:'Web dev с Нуля(Курсы)',
-                url:'web-dev-s-nulya-kursy'
+                id: 3,
+                title: 'Web dev с Нуля(Курсы)',
+                url: 'web-dev-s-nulya-kursy'
+            },
+            {
+                id: 4,
+                title: 'JsonPlaceHolder API',
+                url: 'jsonplaceholder-api'
             },
         ]
     }

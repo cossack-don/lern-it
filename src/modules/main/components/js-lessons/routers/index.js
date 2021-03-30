@@ -1,10 +1,5 @@
 
 const routes = [
-    {
-        path: '/test-js',
-        name: 'test-js',
-        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/Test.vue')
-    },
 
     {
         path: '/shablony-komponentov',
@@ -46,11 +41,15 @@ const routes = [
         name: 'map',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/Map.vue')
     },
-    // 
     {
-        path: '/test2-js',
-        name: 'test2-js',
-        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/TestTwoJs.vue')
+        path: '/reduce-i-isarray',
+        name: 'reduce-i-isarray',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/ReduceAndIsArray.vue')
+    },
+    {
+        path: '/splice-i-concat',
+        name: 'splice-i-concat',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/SpliceAndConcat.vue')
     },
 
 ]
