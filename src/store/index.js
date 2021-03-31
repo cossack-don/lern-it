@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-// смотреть структуру модулей, как в бим
-// в модуле - например header => store папка, в ней создать папку модули и папки каждого модуля, и в этой папке создать файлы индекс, геттер, сеттер, стейт,мутация
-
-
-
-
-
 import Vue from 'vue'
 import Vuex from 'vuex'
 
@@ -23,12 +9,12 @@ Vue.use(Vuex)
 
 import wrapperAllLesonsIt from "./staticAllLessons.js";
 // *
-// import blockOther from "./blockOther.js";
+
 // 
 export default new Vuex.Store({
   state: {
     wrapperAllLesonsIt,
-    // blockOther,
+
     // массив со всеми темами уроков Общий
     globalArrayWithAllLessons:[]
   },

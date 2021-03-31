@@ -51,6 +51,31 @@ const routes = [
         name: 'splice-i-concat',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/SpliceAndConcat.vue')
     },
+    {
+        path: '/find-findindex-lastindexof',
+        name: 'find-findindex-lastindexof',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/FindAndFindIndexAndLastIndexJOf.vue')
+    },
+    {
+        path: '/sort-i-reverse',
+        name: 'sort-i-reverse',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/SortAndReverse.vue')
+    },
+    {
+        path: '/split-i-join',
+        name: 'split-i-join',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/SplitAndJoin.vue')
+    },
+    {
+        path: '/every-i-some',
+        name: 'every-i-some',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/EveryAndSome.vue')
+    },
+    {
+        path: '/flat-fill-keys',
+        name: 'flat-fill-keys',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/FlatAndFillAndKeys.vue')
+    },
 
 ]
 

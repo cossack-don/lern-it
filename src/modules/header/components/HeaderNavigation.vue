@@ -23,14 +23,11 @@
             :key="item.url"
             >{{ item.nameUrl }}</router-link
           >
-          <!--  -->
-          <a
-            style="color: #ffffff"
-            href="https://github.com/cossack-don"
-            target="_blank"
-            >GitHub</a
-          >
         </b-navbar-nav>
+        <!-- навигация иконки ссылки -->
+        <NavigationSocialNetworks class="navbar-nav ml-auto" />
+        <NavigationContactsIcons class="navbar-nav" />
+        <!-- #навигация иконки ссылки -->
 
         <!-- Right navigation -->
         <b-navbar-nav class="ml-auto header-navigation-right">
@@ -49,17 +46,24 @@
 </template>
 
 <script>
+import NavigationSocialNetworks from "@/modules/header/components/NavigationSocialNetworks.vue";
+import NavigationContactsIcons from "@/modules/header/components/NavigationContactsIcons.vue";
 export default {
+  components: {
+    NavigationSocialNetworks,
+    NavigationContactsIcons,
+  },
+  // Главная Поиск репозитория на GitHub
   data() {
     return {
       listItems: [
         {
-          nameUrl: "Поиск репозитория на GitHub",
-          url: "search-repository-github",
-        },
-        {
           nameUrl: "Главная",
           url: "/",
+        },
+        {
+          nameUrl: "Поиск репозитория на GitHub",
+          url: "search-repository-github",
         },
         {
           nameUrl: "Форма обратной связи",
@@ -130,9 +134,20 @@ export default {
   .header-navigation-right {
     margin-top: 20px;
   }
+
+  .wrapper-main-list-icons-contacts,
+  .wrapper-main-list-icons-social-networks {
+    margin: 0 auto;
+  }
   /* .header-navigation-burger {
     display: flex;
     flex-direction: column;
   } */
+}
+
+@media screen and (max-width: 1230px) {
+  .divider-icons-header {
+    display: none;
+  }
 }
 </style>

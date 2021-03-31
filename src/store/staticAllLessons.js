@@ -52,8 +52,8 @@ export default {
 
             {
                 id: 3,
-                title: '-',
-                url: 'test2-js'
+                title: 'Split и Join',
+                url: 'split-i-join'
             },
             {
                 id: 4,
@@ -97,23 +97,24 @@ export default {
             },
             {
                 id: 12,
-                title: 'название темы 38sss8',
-                url: '22'
+                title: 'Find, FindIndex, LastIndexOf',
+                url: 'find-findindex-lastindexof'
             },
             {
                 id: 13,
-                title: 'название темы 3qqq88',
-                url: '22'
+                title: 'Не делал Sort и Reverse',
+                url: 'sort-i-reverse',
+                colorLink: 'color:red;'
             },
             {
                 id: 14,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Every и Some',
+                url: 'every-i-some'
             },
             {
                 id: 15,
-                title: 'название те111мы 38ssss8',
-                url: '1122'
+                title: 'Flat, Fill, Keys',
+                url: 'flat-fill-keys'
             },
             {
                 id: 16,

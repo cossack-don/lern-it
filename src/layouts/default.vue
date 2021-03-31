@@ -3,7 +3,7 @@
     <!-- header static -->
     <HeaderNavigation />
     <Header />
-     
+
     <!-- main content dinamic -->
     <router-view />
 
@@ -30,8 +30,17 @@ export default {
 
 <style>
 /* .layout-default { */
-  /* высота 76 пк хедера */
-  /* height: calc(100vh - 76px); */
+/* высота 76 пк хедера */
+/* height: calc(100vh - 76px); */
 /* } */
 /* your style */
+.c svg {
+  fill: #bbddce;
+  width: 70px;
+  height: auto;
+}
+.c svg:hover {
+  transition: 0.5s;
+  fill: red;
+}
 </style>
