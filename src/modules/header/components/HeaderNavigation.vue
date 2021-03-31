@@ -69,6 +69,10 @@ export default {
           nameUrl: "Форма обратной связи",
           url: "/feedback-form",
         },
+        {
+          nameUrl: "Работа",
+          url: "/job",
+        },
       ],
 
       listItemsSings: [
