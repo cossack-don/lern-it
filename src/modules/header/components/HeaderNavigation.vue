@@ -6,7 +6,12 @@
         ><img class="main-logo" src="@/assets/img/main-logo.png" alt=""
       /></router-link>
 
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-navbar-toggle target="nav-collapse">
+      <template #default="{ expanded }">
+        <b-icon v-if="expanded" icon="chevron-bar-up"></b-icon>
+        <b-icon v-else icon="chevron-bar-down"></b-icon>
+      </template>
+    </b-navbar-toggle>
 
       <b-collapse
         id="nav-collapse"
@@ -91,6 +96,9 @@ export default {
 </script>
 
 <style>
+.navbar-toggler-icon{
+  background:red;
+}
 .main-logo {
   width: 60px;
   height: auto;

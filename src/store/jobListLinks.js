@@ -22,15 +22,15 @@ export default {
                 url:'https://web.whatsapp.com/'
             },
             {
-                name:'vk',
+                name:'Vk',
                 url:'https://vk.com/id43471214'
             },
             {
-                name:'Акции для сайта wd',
+                name:'Акции wd',
                 url:'https://www.winediscovery.ru/aktsii/test/'
             },
             {
-                name:'Яндекс',
+                name:'Яндекс поиск',
                 url:'https://yandex.ru/'
             },
         ]
