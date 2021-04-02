@@ -20,6 +20,36 @@ const routes = [
         name: 'jsonplaceholder-api',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/JsonPlaceHolder.vue')
     },
+    {
+        path: '/to-code',
+        name: 'to-code',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/toCodeKurs.vue')
+    },
+    {
+        path: '/code-me-all',
+        name: 'code-me-all',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/codeMeOldNew.vue')
+    },
+    {
+        path: '/put-izucheniya-js',
+        name: 'put-izucheniya-js',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/roadLessonsJs.vue')
+    },
+    {
+        path: '/moi-narabotki-codepen',
+        name: 'moi-narabotki-codepen',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/myCodePen.vue')
+    },
+    {
+        path: '/firebase',
+        name: 'firebase',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/firebase.vue')
+    },
+    {
+        path: '/ssylki-youtobe-urokov',
+        name: 'ssylki-youtobe-urokov',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/ListYoutobeLinksLessons.vue')
+    },
 
 ]
 

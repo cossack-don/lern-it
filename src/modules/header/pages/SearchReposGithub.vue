@@ -428,9 +428,9 @@ export default {
         this.errorSearch = false;
       }
 
-      //   запрос axios
+      //   запрос axios ?per_page=100 чтобы выводило больше 30 репозиториев, по умолчанию у github api 30 выводит
       axios
-        .get(`https://api.github.com/users/${this.valueSearch}/repos`)
+        .get(`https://api.github.com/users/${this.valueSearch}/repos?per_page=100`)
         .then((res) => {
           this.error = null;
           this.repos = res.data;

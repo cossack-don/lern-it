@@ -224,6 +224,36 @@ export default {
                 title: 'JsonPlaceHolder API',
                 url: 'jsonplaceholder-api'
             },
+            {
+                id: 5,
+                title: 'to Code',
+                url: 'to-code'
+            },
+            {
+                id: 6,
+                title: 'Code me all',
+                url: 'code-me-all'
+            },
+            {
+                id: 7,
+                title: 'Путь изучения Js',
+                url: 'put-izucheniya-js'
+            },
+            {
+                id: 8,
+                title: 'Мои наработки CodePen',
+                url: 'moi-narabotki-codepen'
+            },
+            {
+                id: 9,
+                title: 'Firebase API',
+                url: 'firebase'
+            },
+            {
+                id: 10,
+                title: 'Ссылки Youtobe уроков',
+                url: 'ssylki-youtobe-urokov'
+            },
         ]
     }
 };

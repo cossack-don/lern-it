@@ -9,6 +9,7 @@ Vue.use(Vuex)
 
 import wrapperAllLesonsIt from "./staticAllLessons.js";
 import wrapperObjectLinksForJob from "./jobListLinks.js";
+import wrapperlistYoutobeLessonsLinks from "./listYoutobeLessonsLinks.js";
 // *
 
 // 
@@ -16,6 +17,7 @@ export default new Vuex.Store({
   state: {
     wrapperAllLesonsIt,
     wrapperObjectLinksForJob,
+    wrapperlistYoutobeLessonsLinks,
 
     // массив со всеми темами уроков Общий
     globalArrayWithAllLessons:[]
