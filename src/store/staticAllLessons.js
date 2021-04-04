@@ -254,6 +254,11 @@ export default {
                 title: 'Ссылки Youtobe уроков',
                 url: 'ssylki-youtobe-urokov'
             },
+            {
+                id: 11,
+                title: 'Методология Agile и Scrum',
+                url: 'metodologiya-agile-i-scrum'
+            },
         ]
     }
 };

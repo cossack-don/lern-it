@@ -64,7 +64,7 @@ export default {
     -webkit-transform: translateX(-7px);
     transform: translateX(-7px);
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 19px;
     color: #fd7e14;
     text-decoration: none;
   }

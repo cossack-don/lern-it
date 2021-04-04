@@ -284,6 +284,12 @@
           <a target="_blank" :href="item.html_url" class="link-repos">{{
             item.name
           }}</a>
+          <!-- ссылка для spa репозитория продакшен -->
+                    <a target="_blank" :href="'https://cossack-don.github.io/' + item.name + '/#/'"
+                     class="link-repos"><span style="color:#ffffff;">Продакшен SPA -</span> {{
+            item.name
+          }}</a>
+          
           <!--     дата создания репозитория       -->
           <div class="create-repos">
             Создан:

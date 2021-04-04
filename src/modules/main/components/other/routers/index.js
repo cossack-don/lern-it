@@ -50,6 +50,11 @@ const routes = [
         name: 'ssylki-youtobe-urokov',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/ListYoutobeLinksLessons.vue')
     },
+    {
+        path: '/metodologiya-agile-i-scrum',
+        name: 'metodologiya-agile-i-scrum',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/Agile.vue')
+    },
 
 ]
 
