@@ -55,6 +55,16 @@ const routes = [
         name: 'metodologiya-agile-i-scrum',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/Agile.vue')
     },
+    {
+        path: '/uchebnik-basicweb-po-js',
+        name: 'uchebnik-basicweb-po-js',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/BookBasicweb.vue')
+    },
+    {
+        path: '/uchebnik-ts',
+        name: 'uchebnik-ts',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/BookTS.vue')
+    },
 
 ]
 

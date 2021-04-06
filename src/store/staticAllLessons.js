@@ -102,9 +102,9 @@ export default {
             },
             {
                 id: 13,
-                title: 'Не делал Sort и Reverse',
+                title: 'Sort и Reverse',
                 url: 'sort-i-reverse',
-                colorLink: 'color:red;'
+                // colorLink: 'color:red;'
             },
             {
                 id: 14,
@@ -118,8 +118,8 @@ export default {
             },
             {
                 id: 16,
-                title: 'название тем3232ы 38ssss8',
-                url: '232'
+                title: 'Promise',
+                url: 'promise'
             },
             {
                 id: 17,
@@ -258,6 +258,16 @@ export default {
                 id: 11,
                 title: 'Методология Agile и Scrum',
                 url: 'metodologiya-agile-i-scrum'
+            },
+            {
+                id: 12,
+                title: 'Учебник TS',
+                url: 'uchebnik-ts'
+            },
+            {
+                id: 13,
+                title: 'Учебник basicweb по JS',
+                url: 'uchebnik-basicweb-po-js'
             },
         ]
     }

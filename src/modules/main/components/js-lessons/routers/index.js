@@ -76,6 +76,11 @@ const routes = [
         name: 'flat-fill-keys',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/FlatAndFillAndKeys.vue')
     },
+    {
+        path: '/promise',
+        name: 'promise',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/Promise.vue')
+    },
 
 ]
 
