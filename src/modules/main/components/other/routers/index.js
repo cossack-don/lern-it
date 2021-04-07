@@ -65,6 +65,11 @@ const routes = [
         name: 'uchebnik-ts',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/BookTS.vue')
     },
+    {
+        path: '/primer-arhitektury-prilozheniya',
+        name: 'primer-arhitektury-prilozheniya',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/TemplateNewApp.vue')
+    },
 
 ]
 

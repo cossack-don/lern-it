@@ -81,7 +81,21 @@ const routes = [
         name: 'promise',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/Promise.vue')
     },
-
+    {
+        path: '/novye-fishki-es16',
+        name: 'novye-fishki-es16',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/NewMethodsES.vue')
+    },
+    {
+        path: '/destrukturizaciya',
+        name: 'destrukturizaciya',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/Destructuring.vue')
+    },
+    {
+        path: '/rest-i-spread',
+        name: 'rest-i-spread',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/RestAndSpread.vue')
+    },
 ]
 
 

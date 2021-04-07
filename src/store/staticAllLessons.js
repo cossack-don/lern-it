@@ -123,18 +123,18 @@ export default {
             },
             {
                 id: 17,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Новые фишки ES16+',
+                url: 'novye-fishki-es16'
             },
             {
                 id: 18,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Деструктуризация',
+                url: 'destrukturizaciya'
             },
             {
                 id: 19,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Rest и Spread',
+                url: 'rest-i-spread'
             },
             {
                 id: 20,
@@ -268,6 +268,11 @@ export default {
                 id: 13,
                 title: 'Учебник basicweb по JS',
                 url: 'uchebnik-basicweb-po-js'
+            },
+            {
+                id: 14,
+                title: 'Пример Архитектуры приложения',
+                url: 'primer-arhitektury-prilozheniya'
             },
         ]
     }
