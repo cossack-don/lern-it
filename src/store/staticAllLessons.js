@@ -274,6 +274,11 @@ export default {
                 title: 'Пример Архитектуры приложения',
                 url: 'primer-arhitektury-prilozheniya'
             },
+            {
+                id: 15,
+                title: 'Тестовые задания!',
+                url: 'testovye-zadaniya'
+            },
         ]
     }
 };

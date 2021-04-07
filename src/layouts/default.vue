@@ -5,7 +5,7 @@
     <Header />
 
     <!-- main content dinamic -->
-    <router-view />
+    <router-view  />
 
     <!-- footer static -->
     <!-- <Footer /> -->

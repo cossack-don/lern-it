@@ -70,6 +70,11 @@ const routes = [
         name: 'primer-arhitektury-prilozheniya',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/TemplateNewApp.vue')
     },
+    {
+        path: '/testovye-zadaniya',
+        name: 'testovye-zadaniya',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/AllTz.vue')
+    },
 
 ]
 
