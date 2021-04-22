@@ -96,7 +96,12 @@ const routes = [
         name: 'rest-i-spread',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/RestAndSpread.vue')
     },
-]
+    {
+        path: '/callback',
+        name: 'callback',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/CallBack.vue')
+    },
+];
 
 
 export default routes;
