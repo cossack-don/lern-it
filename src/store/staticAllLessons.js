@@ -143,33 +143,35 @@ export default {
             },
             {
                 id: 21,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Параметры по умолчанию',
+                url: 'parametry-po-umolchaniyu'
             },
             {
                 id: 22,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'For of',
+                url: 'for-of'
             },
             {
                 id: 23,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Class',
+                url: 'class'
             },
             {
                 id: 24,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Set и WeakSet',
+                url: 'set-i-weakset'
             },
             {
                 id: 25,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Map и WeakMap НЕ СДЕЛАЛ',
+                url: 'map-i-weakmap',
+                colorLink: 'color:red;'
             },
             {
                 id: 26,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'В первую очередь изучить',
+                url: 'v-pervuyu-ochered-izuchit',
+                colorLink: 'color:blue;'
             },
             {
                 id: 27,

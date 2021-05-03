@@ -101,7 +101,36 @@ const routes = [
         name: 'callback',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/CallBack.vue')
     },
+    {
+        path: '/parametry-po-umolchaniyu',
+        name: 'parametry-po-umolchaniyu',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/DefaultParameters.vue')
+    },
+    {
+        path: '/for-of',
+        name: 'for-of',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/ForOf.vue')
+    },
+    {
+        path: '/class',
+        name: 'class',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/Class.vue')
+    },
+    {
+        path: '/set-i-weakset',
+        name: 'set-i-weakset',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/SetAndWeakSet.vue')
+    },
+    {
+        path: '/map-i-weakmap',
+        name: 'map-i-weakmap',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/MapAndWeakMap.vue')
+    },
+    {
+        path: '/v-pervuyu-ochered-izuchit',
+        name: 'v-pervuyu-ochered-izuchit',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/itemNewLes.vue')
+    },
 ];
-
 
 export default routes;
