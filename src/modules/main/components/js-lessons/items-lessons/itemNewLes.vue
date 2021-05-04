@@ -22,11 +22,7 @@ export default {
   data() {
     return {
       themLessons: [
-        "this - контекст, bind,call,apply",
-        "class set,get - ООП",
         "генераторы",
-        "spread - reast",
-        "Promise, async await",
         "try catch",
         "Паттерны",
         "Компонентый подход",

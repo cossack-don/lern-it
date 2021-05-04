@@ -5,7 +5,7 @@
       <router-link to="/">Главная</router-link>
       <!-- #Cсылки -->
     </nav>
-
+    подробнее описание сделать и разницу
     <GC_h2_lessons slot:default>Rest и Spread</GC_h2_lessons>
 
     <GC_area_code_lessons slot:default>

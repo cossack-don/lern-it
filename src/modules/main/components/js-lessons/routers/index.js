@@ -131,6 +131,18 @@ const routes = [
         name: 'v-pervuyu-ochered-izuchit',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/itemNewLes.vue')
     },
+    {
+        path: '/this',
+        name: 'this',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/This.vue')
+    },
+    {
+        path: '/zamykaniya-js',
+        name: 'zamykaniya-js',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/js-lessons/items-lessons/JsClosures.vue')
+    },
+
 ];
+
 
 export default routes;

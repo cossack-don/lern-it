@@ -119,7 +119,8 @@ export default {
             {
                 id: 16,
                 title: 'Promise',
-                url: 'promise'
+                url: 'promise',
+                colorLink: 'color:red;'
             },
             {
                 id: 17,
@@ -134,7 +135,8 @@ export default {
             {
                 id: 19,
                 title: 'Rest и Spread',
-                url: 'rest-i-spread'
+                url: 'rest-i-spread',
+                colorLink: 'color:red;'
             },
             {
                 id: 20,
@@ -154,7 +156,8 @@ export default {
             {
                 id: 23,
                 title: 'Class',
-                url: 'class'
+                url: 'class',
+                colorLink: 'color:red;'
             },
             {
                 id: 24,
@@ -175,13 +178,15 @@ export default {
             },
             {
                 id: 27,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'This, bind, call, apply',
+                url: 'this',
+                colorLink: 'color:red;'
             },
             {
                 id: 28,
-                title: 'название темы 38ssss8',
-                url: '22'
+                title: 'Замыкания js',
+                url: 'zamykaniya-js',
+                colorLink: 'color:red;'
             },
             {
                 id: 29,

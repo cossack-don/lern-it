@@ -5,7 +5,7 @@
       <router-link to="/">Главная</router-link>
       <!-- #Cсылки -->
     </nav>
-
+    SET GET - ПОДРОБНЕЕ О КЛАССАХ
     <GC_h2_lessons slot:default>Class ES6</GC_h2_lessons>
 
     <GC_area_code_lessons slot:default>

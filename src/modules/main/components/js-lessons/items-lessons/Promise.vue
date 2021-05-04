@@ -11,7 +11,7 @@
       >
       <!-- #Cсылки -->
     </nav>
-
+    Подробнее о промисах, Async AWAIT
     <GC_h2_lessons slot:default>Promise</GC_h2_lessons>
 
     <GC_area_code_lessons slot:default>
