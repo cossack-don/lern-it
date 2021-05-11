@@ -180,13 +180,11 @@ export default {
                 id: 27,
                 title: 'This, bind, call, apply',
                 url: 'this',
-                colorLink: 'color:red;'
             },
             {
                 id: 28,
                 title: 'Замыкания js',
                 url: 'zamykaniya-js',
-                colorLink: 'color:red;'
             },
             {
                 id: 29,
@@ -285,6 +283,11 @@ export default {
                 id: 15,
                 title: 'Тестовые задания!',
                 url: 'testovye-zadaniya'
+            },
+            {
+                id: 16,
+                title: 'Event Loop сервис',
+                url: 'event-loop-servis'
             },
         ]
     }

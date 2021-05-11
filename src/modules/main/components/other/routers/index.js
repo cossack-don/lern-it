@@ -75,6 +75,11 @@ const routes = [
         name: 'testovye-zadaniya',
         component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/AllTz.vue')
     },
+    {
+        path: '/event-loop-servis',
+        name: 'event-loop-servis',
+        component: () => import(/* webpackChunkName: "about" */ '@/modules/main/components/other/items-lessons/EventLoop.vue')
+    },
 
 ]
 
